@@ -51,7 +51,7 @@ $ bash intro.sh {YourName} > output.txt
 Assuming you see no errors, type:
 
 ```bash
-    $ cat output.txt
+$ cat output.txt
 ```
 
 **If you want to try Git with RStudio**

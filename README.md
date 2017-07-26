@@ -19,17 +19,18 @@ Good resource with basic intro to bash shell: [Intro to Bash](https://programmin
 - I recommend creating a "TechCamp" directory somewhere on your system (in your home folder, desktop, doesn't really matter).
 - With your shell open, make sure you are navigated to the `TechCamp` folder
 
-    
-    $ cd /e/TechCamp/
+```bash
+$ cd /e/TechCamp/
+```
 
 - Now create a directory called `week1` and navigate into the new directory:
 
+```bash
+$ mkdir testdir
+$ ls ./
+$ cd testdir
+```
 
-    $ mkdir testdir
-    $ ls ./
-    
-    $ cd testdir
-    
 ---
 
 # Git Intro

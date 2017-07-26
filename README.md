@@ -68,6 +68,7 @@ Navigate into the newly-created folder, and run the following command (replacing
 ```bash
 $ bash intro.sh {YourName}
 ```
+Note that files that end in `.sh` are called "shell scripts", and they are simply comprised of commands that can be run in the bash shell. Try and figure out how I wrote the `intro.sh` script; I will explain if you are curious!
 
 **If you want to try Git with RStudio**
 - Look into this tutorial: [http://r-bio.github.io/intro-git-rstudio/](http://r-bio.github.io/intro-git-rstudio/)

@@ -21,12 +21,35 @@ Good resource with basic intro to bash shell: [Intro to Bash](https://programmin
 $ cd /e/TechCamp/
 ```
 
-- Now create a directory called `week1` and navigate into the new directory:
+- Now create a directory called `testdir` and navigate into the new directory:
 
 ```bash
 $ mkdir testdir
 $ ls ./
 $ cd testdir
+```
+
+- Create a file inside this new directory:
+
+```bash
+$ ls ~/ > myfile.txt
+```
+
+- Try to delete the directory you just made:
+
+```bash
+$ cd ../
+$ pwd
+$ rmdir testdir
+```
+
+- Notice the error. You must remove the file first before you can delete the directory, or you can override the error
+    - BE CAREFUL WHENEVER YOU ARE USING THE `rm` FUNCTION!
+    - NEVER EVER TYPE `rm -rf /` with an unqualified directory path. This will nuke your whole system.
+    
+```bash
+$ rm -rf testdir/
+$ ls ./
 ```
 
 ---

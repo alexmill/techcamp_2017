@@ -2,8 +2,6 @@
 
 # Command Line
 
-This notebook is meant to 
-
 Good resource with basic intro to bash shell: [Intro to Bash](https://programminghistorian.org/lessons/intro-to-bash)
 
 ### Windows Users: Install a bash shell

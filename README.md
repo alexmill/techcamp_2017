@@ -37,16 +37,23 @@ $ cd testdir
 
 In your `TechCamp` folder, clone my repository. This will create an exact copy of the files I have on GitHub on your local machine:
 
-    $ git clone https://github.com/alexmill/techcamp_week1
-    
+
+```bash
+$ git clone https://github.com/alexmill/techcamp_week1
+```
+
 Navigate into the newly-created folder, and run the following command (replacing `{YourName}` with your name, e.g. `Alex`):
 
-    $ bash intro.sh {YourName} > output.txt
-    
+```bash
+$ bash intro.sh {YourName} > output.txt
+```
+
 Assuming you see no errors, type:
 
+```bash
     $ cat output.txt
-    
+```
+
 **If you want to try Git with RStudio**
 - Look into this tutorial: [http://r-bio.github.io/intro-git-rstudio/](http://r-bio.github.io/intro-git-rstudio/)
 - There aren't a ton of benefits over using the CLI, but if you prefer a GUI, it can be helpful
@@ -63,7 +70,7 @@ Assuming you see no errors, type:
 **For beginners**:
 - Copy and paste the code below to construct two time-series dataframes, one consisting of data from the US and one from the UK
 
-```
+```R
 if (!require("zoo")) install.packages("zoo")
 US = USAccDeaths
 US = data.frame(date = as.Date(as.yearmon(time(US))), US_Data = coredata(US))

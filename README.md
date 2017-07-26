@@ -66,13 +66,7 @@ $ git clone https://github.com/alexmill/techcamp_week1
 Navigate into the newly-created folder, and run the following command (replacing `{YourName}` with your name, e.g. `Alex`):
 
 ```bash
-$ bash intro.sh {YourName} > output.txt
-```
-
-Assuming you see no errors, type:
-
-```bash
-$ cat output.txt
+$ bash intro.sh {YourName}
 ```
 
 **If you want to try Git with RStudio**

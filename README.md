@@ -56,7 +56,9 @@ $ ls ./
 
 # Git Intro
 
-In your `TechCamp` folder, clone my repository. This will create an exact copy of the files I have on GitHub on your local machine:
+- Register for a [GitHub](https://github.com/) account
+- If you have absolutely no idea what you're doing, consider following a more [in-depth introduction post](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners).
+- In your `TechCamp` folder, clone my repository. This will create an exact copy of the files I have on GitHub on your local machine:
 
 
 ```bash
@@ -73,6 +75,23 @@ Note that files that end in `.sh` are called "shell scripts", and they are simpl
 **If you want to try Git with RStudio**
 - Look into this tutorial: [http://r-bio.github.io/intro-git-rstudio/](http://r-bio.github.io/intro-git-rstudio/)
 - There aren't a ton of benefits over using the CLI, but if you prefer a GUI, it can be helpful
+
+
+**If you want to use how to use GitHub yourself**
+- Create a new repository using the GitHub website
+    - Take note of the URL of your repository; something like: `https://github.com/user_name/repo_name`
+- [Change the "origin" of the repository](https://help.github.com/articles/changing-a-remote-s-url/) you downloaded from my account:
+
+```bash
+# list current remote repositories (it should have the link to my GitHub repo)
+$ git remote -v
+
+# change the remote origin to your own 
+$ git remote set-url origin https://github.com/user_name/repo_name.git
+
+# verify that your local repo now has your GitHub location as its remote destination
+$ git remote -v
+```
 
 ---
 

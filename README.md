@@ -77,7 +77,7 @@ Note that files that end in `.sh` are called "shell scripts", and they are simpl
 - There aren't a ton of benefits over using the CLI, but if you prefer a GUI, it can be helpful
 
 
-**If you want to use how to use GitHub yourself**
+**If you want to learn how to use GitHub yourself**
 - Create a new repository using the GitHub website
     - Take note of the URL of your repository; something like: `https://github.com/user_name/repo_name`
 - [Change the "origin" of the repository](https://help.github.com/articles/changing-a-remote-s-url/) you downloaded from my account:

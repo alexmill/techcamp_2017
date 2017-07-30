@@ -53,3 +53,15 @@ texreg(list(model1, model2))
 ```
 
 For help, see `texreg`.
+
+
+# Other cool stuff
+
+Python in R!
+
+```{python}
+def hola_mundo(x,y):
+    print("{}, {}!".format(x,y))
+
+hola_mundo("Hello", "World")
+```

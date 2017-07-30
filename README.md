@@ -113,6 +113,9 @@ US = data.frame(date = as.Date(as.yearmon(time(US))), US_Data = coredata(US))
 
 UK = UKDriverDeaths
 UK = data.frame(date = as.Date(as.yearmon(time(UK))), UK_Data = coredata(UK))
+
+head(US)
+head(UK)
 ```
 - Your task is to construct a **single** dataframe, that has:
     - the `date` in one column
@@ -120,6 +123,7 @@ UK = data.frame(date = as.Date(as.yearmon(time(UK))), UK_Data = coredata(UK))
     - the `UK_Data` in another column. 
 - You can drop any dates in the UK dataset that are not contained in the US dataset.
 - Additionally, for fun, make time-series plots of the data. I.e., plot the `US_Data` on the Y axis with `date` on the X axis.
+    - Make a line plot using `plot(x=X_DATA, y=Y_DATA, type="line")`
 - DOUBLE BONUS POINTS! Plot both US and UK data on the same plot.
 
 **For more advanced users**:

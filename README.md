@@ -91,7 +91,16 @@ $ git remote set-url origin https://github.com/user_name/repo_name.git
 
 # verify that your local repo now has your GitHub location as its remote destination
 $ git remote -v
+
+# Add the files for staging, and make a local commit
+$ git add --all
+$ git commit -m "my first commit"
+
+# Push the files to GitHub!
+$ git push origin master
 ```
+
+Note you can also do all this directly on GitHub using the "Fork" button when viewing my repository's GitHub page.
 
 ---
 

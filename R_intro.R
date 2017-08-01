@@ -20,7 +20,7 @@ a = 3.2 # double/float (important to know infinite digits are not stored)
 b = "abc" # character
 c = TRUE # logical/boolean
 
-# Importantly:
+# Boolean negation:
 !FALSE
 !TRUE
 
@@ -60,6 +60,7 @@ as.character("1") ==  as.integer(1)
 
 # Vectors
 v = c(1,2,3)
+
 
 # Vector constructions:
 1:10
@@ -110,6 +111,7 @@ y[-unselect]
 
 # Logical indexing
 z[c(TRUE, TRUE, FALSE)]
+z[!c(TRUE, TRUE, FALSE)]
 
 
 
@@ -197,6 +199,7 @@ tips = read.csv('tips.csv')
 tips = read.csv('http://dicook.public.iastate.edu/Army/tips.csv')
 
 # Read in files of other types:
+install.packages("foreign")
 library(foreign)
 read.dta("stata_tips.csv")
 

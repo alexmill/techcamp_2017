@@ -11,7 +11,8 @@
 # Python
 
 - For absolute beginners, download and install [Thonny](http://thonny.org/)
-- If you are interested in Jupyter Notebooks and using a lot scientific/data-analysis Python packages, consider downloading [Anaconda](https://www.continuum.io/downloads). I recommend installing Python versions >= 3.5.
+- If you are interested in Jupyter Notebooks or plan on doing a lot of data analysis in Python, consider downloading [Anaconda](https://www.continuum.io/downloads). I recommend installing Python versions >= 3.5.
+	- It handles the installation of almost all scientific computing Python packages (Numpy, Pandas, Scipy, Scikit-Learn, NLTK).
 	- It makes it very easy to get up and running with Jupyter. 
 	- It also includes a fully-featured Python IDE called Spyder (may be more comfortable for users coming from RStudio)
 

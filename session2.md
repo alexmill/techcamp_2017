@@ -8,7 +8,7 @@
     - Follow [directions here]((https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/)) if you need help (don't worry about the "SDSFoundations" stuff)
 - Go over [`R_intro.R`](https://github.com/alexmill/techcamp_week1/blob/master/R_intro.R) file
 
-# Getting started with Python
+## Getting started with Python
 
 - For absolute beginners, download and install [Thonny](http://thonny.org/)
 - If you are interested in Jupyter Notebooks or plan on doing a lot of data analysis in Python, consider downloading [Anaconda](https://www.continuum.io/downloads). I recommend installing Python versions >= 3.5.

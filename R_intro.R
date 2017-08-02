@@ -9,6 +9,7 @@ rm(list = ls(all.names = TRUE))
 getwd()
 dir()
 ?setwd
+# Can also use RStudio GUI
 
 
 # R is a funny language when it comes to types,
@@ -30,9 +31,10 @@ NA # Missing value place-holder
 NULL # Empty/non-existent object
 
 # Notice difference between:
-c(1,2,3)
-c(1,NA,3)
-c(1,NULL,3)
+c(1,NaN,3)
+length(c(1,NA,3))
+
+length(c(1,NULL,3))
 
 
 # Numeric types: NaN, double, integer, Inf
@@ -50,7 +52,7 @@ typeof("1")
 typeof(1)
 # and yet:
 "1"==1
-as.character("1") ==  as.integer(1)
+as.character("1") ==  as.character(1)
 
 # R is coercing variables being compared to the same type before comparison
 # ... all without telling you!
@@ -83,7 +85,7 @@ rbind(c(1,2,3), c(4,5,6))
 cbind(c(1,2,3), c(4,5,6))
 
 # Matrix
-matrix(c(1,2,3,4,5,6), nrow=3)
+matrix(c(1,2,3,4,5,"6"), nrow=3)
 matrix(c(1,2,3,4,5,6), nrow=3, byrow=FALSE)
 
 # DataFrames: Like matrices, except allow for COLUMNS of different type

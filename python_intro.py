@@ -11,13 +11,12 @@ z = True  #bool; opposite is False
 
 True + False
 True * False
-not True
-not False
 True or False
 True and False
+not True
+not False
 
-
-
+# Coercing variables into different types
 int("3")
 int(3.3)
 str(3)
@@ -27,10 +26,21 @@ bool("")
 
 
 #lists
-[1,2,3]
+l = [1,2,3]
+l[0]
+l[1] = "x" # list elements can be changed in-place; i.e. are "mutable"
+l
+
 
 #tuples
-(44,33)
+t = (44,33)
+t[0]
+t[0] = 55 # error! tuples are not mutable!
+
+# coerce compound data types:
+list((1,2,3)) # same as [1,2,3]
+tuple([1,2,3]) # same as (1,2,3)
+
 
 #dicts
 my_dict = {"key1": "value", "key2": "different value"}
@@ -42,11 +52,11 @@ def my_func(input):
         print("Your input is greater than 4!")
     else:
         print("You entered {}, which is not greater than 4.".format(input))
-    return(input+3)
+    return(input)
 
 # Useful expressions
 
-range(0,10) # iterature through a sequence of integers
+range(0,10) # iterate through a sequence of integers
 type(x) # Get variable type
 dir(y)# Determine methods that can be applied to variable)
 my_dict.items() # iterate through all (key,value) pairs in dictionary 
@@ -61,6 +71,4 @@ Y = 43
 
 # Do this:
 "X value: {0}. Y value: {1}.".format(X,Y)
-
-
 

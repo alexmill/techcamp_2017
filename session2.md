@@ -65,10 +65,12 @@ And the results Python list would be:
 ]
 ```
 
-- Tips!
-    - Use Google! Use StackOverflow!
-    - **For R users**
-    	- To read the rile into R as a string, use the `read_file` function from the `readr` package:
+### Tips!
+
+Use Google! Use StackOverflow!
+
+**For R users**
+- To read the rile into R as a string, use the `read_file` function from the `readr` package:
 	
 ```R
 install.packages("readr")
@@ -81,9 +83,10 @@ setwd("C:\\path\\to\\week1")
 ascii_txt = read_file("ascii.txt")
 ```
 
-    	- The `stringr` package has a nice function called `str_count(string, pattern)`, which counts occurrences in a string. HOWEVER! By default it uses regex to match strings. Because there are special regex characters in the document we are scanning, instead use the function `stri_count_fixed` from the `stringi` package, which has the exact same format but does exact string matches rather than regex matches.
-    - **For Python users**
-    	- To read the file as a string into your program, use the following notation:
+- The `stringr` package has a nice function called `str_count(string, pattern)`, which counts occurrences in a string. HOWEVER! By default it uses regex to match strings. Because there are special regex characters in the document we are scanning, instead use the function `stri_count_fixed` from the `stringi` package, which has the exact same format but does exact string matches rather than regex matches.
+
+**For Python users**
+- To read the file as a string into your program, use the following notation:
 	
 ```python
 import os
@@ -96,10 +99,11 @@ with open("ascii.txt") as file:
 	ascii_txt = file.read()
 ```
 
-    	- This consider using `split` and the `set` function, which returns only unique items in an iterable object (i.e,. a list or tuple). 
+- This consider using `split` and the `set` function, which returns only unique items in an iterable object (i.e,. a list or tuple). 
 
-- Bonus points!
-    - Wrap your calculations in a function that can do the same for any text file. Then perform the same character counting calculation for the `intro.sh` file.
+### Bonus points!
+
+- Wrap your calculations in a function that can do the same for any text file. Then perform the same character counting calculation for the `intro.sh` file.
 
 
 

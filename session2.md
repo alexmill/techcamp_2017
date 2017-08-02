@@ -22,7 +22,7 @@
 
 For these exercises, choose the lanuage you would like more familiarity with. 
 
-## Beginning Python and R
+## Beginning Python and R 
 
 For beginners (of either language), I highly recommend working through a set of simple tasks that stretch your understanding of functions, inputs, lists, and iteration (i.e., for loops). Proceed through the following list of tasks:
 - Write a function that prints "Hello, World!"
@@ -32,6 +32,7 @@ For beginners (of either language), I highly recommend working through a set of 
 - Write a function that returns the elements on odd positions in a list.
 - Write a function that computes the list of the first 100 [Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_number) .
 
+I wrote answers to most of these tasks here: ([answers](https://github.com/alexmill/techcamp_week1/blob/master/beginner_answers.py)).
 
 If you have more downtime and want to dedicate some time to learning your language of choice, [here is a longer list of good programming challenges](https://adriann.github.io/programming_problems.html).
 

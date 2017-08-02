@@ -54,8 +54,11 @@ def my_func(input):
         print("You entered {}, which is not greater than 4.".format(input))
     return(input)
 
-# Useful expressions
+for el in range(0,100):
+    x = el + 10
+    print(x)
 
+# Useful expressions
 range(0,10) # iterate through a sequence of integers
 type(x) # Get variable type
 dir(y)# Determine methods that can be applied to variable)
@@ -65,10 +68,9 @@ my_dict.items() # iterate through all (key,value) pairs in dictionary
 
 # String formatting with variables; see https://pyformat.info/
 # Rather than:
-X = 55
-Y = 43
+X = 55 * 2
+Y = 43 *22
 "X value: " + str(X) + ". Y value: " + str(Y) + "."
 
 # Do this:
-"X value: {0}. Y value: {1}.".format(X,Y)
-
+"X value: {x}. Y value: {y}.".format(X,Y)

@@ -1,8 +1,8 @@
 ---
-title: "Reproducible Tables"
+title: "Word Doc"
 author: "Alex Miller"
-date: "July 26, 2017"
-output: pdf_document
+date: "August 2, 2017"
+output: word_document
 ---
 
 ```{r setup, include=FALSE}
@@ -11,15 +11,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-\[ e = mc^2 \]
-
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ```{r cars}
-summary(mtcars)
-
+summary(cars)
 ```
 
 ## Including Plots
@@ -31,39 +28,3 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-
-## Beautiful Tables
-
-You can also embed plots, for example:
-
-```{r, echo=T}
-model1 = lm(mpg ~cyl + disp + hp + wt, data=mtcars)
-model2 = lm(mpg ~., data=mtcars)
-summary(model1)
-```
-
-
-\newpage
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-require(texreg)
-```
-
-```{r, echo=FALSE, results='asis'}
-texreg(list(model1, model2))
-```
-
-For help, see `texreg`.
-
-
-# Other cool stuff
-
-Python in R!
-
-```{python}
-def hola_mundo(x,y):
-    print("{}, {}!".format(x,y))
-
-hola_mundo("Hello", "World")
-```

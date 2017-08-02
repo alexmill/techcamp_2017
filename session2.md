@@ -69,29 +69,30 @@ And the results Python list would be:
     - Use Google! Use StackOverflow!
     - **For R users**
     	- To read the rile into R as a string, use the `read_file` function from the `readr` package:
-```R
-install.packages("readr")
-library(readr)
+	```R
+	install.packages("readr")
+	library(readr)
 
-setwd("/path/to/week1/") # change working directory to the week1 folder
-# NOTE for Windows users! Filepaths should use backslashes instead of forward:
-setwd("C:\\path\\to\\week1")
+	setwd("/path/to/week1/") # change working directory to the week1 folder
+	# NOTE for Windows users! Filepaths should use backslashes instead of forward:
+	setwd("C:\\path\\to\\week1")
 
-ascii_txt = read_file("ascii.txt")
-```
+	ascii_txt = read_file("ascii.txt")
+	```
+
     	- The `stringr` package has a nice function called `str_count(string, pattern)`, which counts occurrences in a string. HOWEVER! By default it uses regex to match strings. Because there are special regex characters in the document we are scanning, instead use the function `stri_count_fixed` from the `stringi` package, which has the exact same format but does exact string matches rather than regex matches.
     - **For Python users**
     	- To read the file as a string into your program, use the following notation:
-```python
-import os
+	```python
+	import os
 
-os.chdir("/home/path/to/week1") # change working directory to the week1 folder
-# NOTE for Windows users! Filepaths should use backslashes instead of forward:
-os.chdir("C:\\path\\to\\week1")
+	os.chdir("/home/path/to/week1") # change working directory to the week1 folder
+	# NOTE for Windows users! Filepaths should use backslashes instead of forward:
+	os.chdir("C:\\path\\to\\week1")
 
-with open("ascii.txt") as file:
-	ascii_txt = file.read()
-```
+	with open("ascii.txt") as file:
+		ascii_txt = file.read()
+	```
     	- This consider using `split` and the `set` function, which returns only unique items in an iterable object (i.e,. a list or tuple). 
 
 - Bonus points!

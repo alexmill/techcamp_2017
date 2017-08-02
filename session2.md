@@ -39,8 +39,8 @@ If you have more downtime and want to dedicate some time to learning your langua
 
 ## Intermeidate Python and R: General Scripting
 
-- For R: Construct a new data.frame from the `ascii.txt` file, in which every row corresponds to a line in the file, and the columns represent the counts of the characters contained in each line.
-- For Python: Construct a list of dictionaries containing the letter counts for each row (i.e., each row is entry in the list, which is a dictionary containing the counts of each letter on that line)
+- **For R**: Construct a new data.frame from the `ascii.txt` file, in which every row corresponds to a line in the file, and the columns represent the counts of the characters contained in each line.
+- **For Python**: Construct a list of dictionaries containing the letter counts for each row (i.e., each row is entry in the list, which is a dictionary containing the counts of each letter on that line)
 - For example, in the example below, the first row has 3 X's and 2 Y's, whereas the second row has 1 X, 3 Y's, and 1 Z
 
 ```
@@ -67,8 +67,32 @@ And the results Python list would be:
 
 - Tips!
     - Use Google! Use StackOverflow!
-    - For R users: The `stringr` package has a nice function called `str_count(string, pattern)`, which counts occurrences in a string. HOWEVER! By default it uses regex to match strings. Because there are special regex characters in the document we are scanning, instead use the function `stri_count_fixed` from the `stringi` package, which has the exact same format but does exact string matches rather than regex matches.
-    - For Python users: This consider using `split` and the `set` function, which returns only unique items in an iterable object (i.e,. a list or tuple). 
+    - **For R users**
+    	- To read the rile into R as a string, use the `read_file` function from the `readr` package:
+```R
+install.packages("readr")
+library(readr)
+
+setwd("/path/to/week1/") # change working directory to the week1 folder
+# NOTE for Windows users! Filepaths should use backslashes instead of forward:
+setwd("C:\\path\\to\\week1")
+
+ascii_txt = read_file("ascii.txt")
+```
+    	- The `stringr` package has a nice function called `str_count(string, pattern)`, which counts occurrences in a string. HOWEVER! By default it uses regex to match strings. Because there are special regex characters in the document we are scanning, instead use the function `stri_count_fixed` from the `stringi` package, which has the exact same format but does exact string matches rather than regex matches.
+    - **For Python users**
+    	- To read the file as a string into your program, use the following notation:
+```python
+import os
+
+os.chdir("/home/path/to/week1") # change working directory to the week1 folder
+# NOTE for Windows users! Filepaths should use backslashes instead of forward:
+os.chdir("C:\\path\\to\\week1")
+
+with open("ascii.txt") as file:
+	ascii_txt = file.read()
+```
+    	- This consider using `split` and the `set` function, which returns only unique items in an iterable object (i.e,. a list or tuple). 
 
 - Bonus points!
     - Wrap your calculations in a function that can do the same for any text file. Then perform the same character counting calculation for the `intro.sh` file.

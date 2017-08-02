@@ -6,7 +6,7 @@
 
 - Download R and RStudio
     - Follow [directions here]((https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/)) if you need help (don't worry about the "SDSFoundations" stuff)
-- Go over `R_intro.R` file
+- Go over [`R_intro.R`](https://github.com/alexmill/techcamp_week1/blob/master/R_intro.R) file
 
 # Python
 

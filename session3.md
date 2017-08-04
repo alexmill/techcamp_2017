@@ -31,5 +31,5 @@ Hopefully you see "Hi :)" printed directly to your console.
   - You can pass variables to your Python script from the command line. For example, `python hello.py "customVariable"`.
   - Read through the tutorial on the `argparse` module for more info: [Using argparse](https://docs.python.org/3/howto/argparse.html).
 
-# Multiprocessing
+## Multiprocessing
 - For a light intro to multiprocessing (parallel computing using the cores on your machine), go through the first 2 examples in this blog post: [An introduction to parallel programming using Python's multiprocessing module](http://sebastianraschka.com/Articles/2014_multiprocessing.html)

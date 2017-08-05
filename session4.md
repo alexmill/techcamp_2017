@@ -123,3 +123,14 @@ wikipedia.random()
 ### Exercise
 
 Write a function that takes in a query for a Wikipedia article and returns the closest article title and summary.
+
+<!--Solution
+```python
+def get_summary(query):
+    articles = wikipedia.search(query)
+    if not articles:
+        return("No articles match that query.")
+    page = wikipedia.page(articles[0])
+    return((page.title, page.summary))
+ ```
+ -->

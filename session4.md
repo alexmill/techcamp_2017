@@ -85,7 +85,7 @@ print(summary)
 
 # Save the raw data using the json module
 import json
-with open("my_first_json.json") as f:
+with open("my_first_json.json", "w+") as f:
   json.dump(f, results)
 
 # Again, open the file "my_first_json.json" in a plain-text editor

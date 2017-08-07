@@ -5,7 +5,7 @@
 Here's a simple example of how to make a GET request using Python 3's `requests` module.
 
 ```python
-import reqeusts
+import requests
 
 url = "http://www.wikipedia.com/en/"
 r = requests.get(url)

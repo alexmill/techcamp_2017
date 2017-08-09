@@ -47,7 +47,7 @@ for text in texts:
 
 ### TIP!
 
-Try to do the task without looking at this tip.
+Try to do the task without looking at this tip, but if you get stuck extracting the list items from the HTML, go ahead and click.
 
 <details> 
   <summary>The CSS Selector for the table is...</summary>

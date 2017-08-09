@@ -1,3 +1,5 @@
+### Notebook from lecture: [Session 5 Notebook](https://github.com/alexmill/techcamp_week1/blob/master/session5_notebook.ipynb)
+
 # Basic Scraping Exercise
 
 Take the list of Canadian PGA winners at the Wiki link below and turn it into a list of tuples with the year, first name, and last name as entries in each tuple.

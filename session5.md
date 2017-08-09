@@ -51,8 +51,10 @@ Try to do the task without looking at this tip.
 
 <details> 
   <summary>The CSS Selector for the table is...</summary>
-```python
+<pre>
+<code>
 ul = pq("ul")[1]
 list_items = PQ(ul)("li")
-```
+</code>
+</pre>
 </details>

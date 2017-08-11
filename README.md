@@ -1,5 +1,4 @@
-# Tech Camp Week 1 Repo
+# Tech Camp 2017 Repository
 
-Find links to exercises here:
-- [Session 1](https://github.com/alexmill/techcamp_week1/blob/master/session1.md)
-- [Session 2](https://github.com/alexmill/techcamp_week1/blob/master/session2.md)
+
+More extensive notes and direct links are provided at the [Tech Camp 2017 website](http://opim.wharton.upenn.edu/techcamp/2017/).

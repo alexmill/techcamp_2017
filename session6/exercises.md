@@ -66,3 +66,8 @@ def get_product_links(url):
 # Make sure you pause for a second or two while iterating over the links
 
 ```
+
+
+# Pure Regex Exercise
+
+If you'd prefer to work purely on brushing up your regex, this is a good exercise tool: https://regex.sketchengine.co.uk/

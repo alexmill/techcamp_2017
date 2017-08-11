@@ -1,4 +1,4 @@
-### Notebook from lecture: [Session 5 Notebook](https://github.com/alexmill/techcamp_week1/blob/master/session5_notebook.ipynb)
+### Notebook from lecture: [Session 5 Notebook](https://github.com/alexmill/techcamp_week1/blob/master/session5/session5_notebook.ipynb)
 
 # Basic Scraping Exercise
 

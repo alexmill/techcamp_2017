@@ -1,7 +1,7 @@
 # Exercises 7: Text Processing
 
 Use the full movies dataset covered in the lecture.
-  - [Jupyter notebook linked here](https://github.com/alexmill/techcamp_2017/blob/master/session7/session7_notebook.ipynb))
+  - [Jupyter notebook linked here](https://github.com/alexmill/techcamp_2017/blob/master/session7/session7_notebook.ipynb)
   - [Link to raw movie summary JSON](https://raw.githubusercontent.com/alexmill/techcamp_2017/master/session7/movies.json)
  
 Some useful exercises are provided below:

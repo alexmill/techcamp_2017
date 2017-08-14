@@ -1,6 +1,10 @@
 # Exercises 7: Text Processing
 
-Use the full movies dataset covered in the lecture (Notebook linked here). Some useful exercises are provided below:
+Use the full movies dataset covered in the lecture.
+  - [Jupyter notebook linked here](https://github.com/alexmill/techcamp_2017/blob/master/session7/session7_notebook.ipynb))
+  - [Link to raw movie summary JSON](https://raw.githubusercontent.com/alexmill/techcamp_2017/master/session7/movies.json)
+ 
+Some useful exercises are provided below:
 
 - Write a function that finds all the movie summaries that contain the given word
   - e.g., `movies_with("happy")`

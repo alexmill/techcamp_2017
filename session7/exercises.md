@@ -4,6 +4,7 @@ Use the full movies dataset covered in the lecture (Notebook linked here). Some 
 
 - Write a function that finds all the movie summaries that contain the given word
   - e.g., `movies_with("happy")`
+  - You may want to do this before stemming!
 - Find the number of total words and unique words used in each of the movies. Which movie summary has the largest vocabulary?
 - Pick a movie from the list (suggestions: "The Godfather" or "Lord of the Rings").
   - Find the top words (excluding stopwords!) in your chosen movie
